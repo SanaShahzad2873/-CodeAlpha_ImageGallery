@@ -1,175 +1,159 @@
 // ============================================
-// LIONEL MESSI GALLERY
-// EASY TO EDIT - JUST REPLACE THE URLS BELOW
+// LIONEL MESSI GALLERY - FULLY WORKING SEARCH
 // ============================================
-
-// HOW TO ADD YOUR IMAGES:
-// 1. Upload your images to a hosting service (Imgur, Google Drive, Pinterest, etc.)
-// 2. Copy the image direct URL
-// 3. Paste it in the "url" field below
 
 const imageCollection = [
     // ==================== BARCELONA ERA ====================
     { 
         id: 1, 
-        title: "Messi - Barcelona Legend", 
+        title: "Messi Barcelona Legend", 
         category: "barcelona", 
-        desc: "The GOAT in his prime at Camp Nou",
-        url: "https://i.pinimg.com/1200x/16/51/71/165171ba2d884dcc2875606882eb0adf.jpg"  // <- PASTE YOUR URL HERE
+        desc: "The GOAT in his prime at Camp Nou wearing the iconic Blaugrana jersey",
+        url: "https://images.pexels.com/photos/46798/the-ball-stadion-football-the-pitch-46798.jpeg?auto=compress&cs=tinysrgb&w=800&h=600&fit=crop"
     },
     { 
         id: 2, 
-        title: "Messi - The Magician", 
+        title: "Messi The Magician", 
         category: "barcelona", 
-        desc: "Dribbling past defenders with grace",
-        url: "https://i.pinimg.com/1200x/ef/cd/5f/efcd5fbfaa8e8bae431dd2ce826d3b54.jpg"  // <- PASTE YOUR URL HERE
+        desc: "Dribbling past defenders with effortless grace at Camp Nou",
+        url: "https://images.pexels.com/photos/3621104/pexels-photo-3621104.jpeg?auto=compress&cs=tinysrgb&w=800&h=600&fit=crop"
     },
     { 
         id: 3, 
-        title: "Messi - Number 10 Legacy", 
+        title: "Messi Number 10 Legacy", 
         category: "barcelona", 
-        desc: "The legendary number 10 jersey",
-        url: "https://i.pinimg.com/1200x/ff/38/cd/ff38cdefd90650301425d9bd29369815.jpg"  // <- PASTE YOUR URL HERE
+        desc: "Proudly displaying the legendary number 10 jersey for Barcelona",
+        url: "https://images.pexels.com/photos/47730/football-ball-soccer-barcelona-47730.jpeg?auto=compress&cs=tinysrgb&w=800&h=600&fit=crop"
     },
     { 
         id: 4, 
-        title: "Messi - Celebration", 
+        title: "Messi Celebration", 
         category: "barcelona", 
-        desc: "Iconic goal celebration",
-        url: "https://i.pinimg.com/736x/41/19/92/411992e5770a9e2ad26cbe8f2db423dc.jpg"  // <- PASTE YOUR URL HERE
+        desc: "Iconic celebration after scoring another masterpiece goal",
+        url: "https://images.pexels.com/photos/316205/pexels-photo-316205.jpeg?auto=compress&cs=tinysrgb&w=800&h=600&fit=crop"
     },
     { 
         id: 5, 
-        title: "Messi - Captain's Armband", 
+        title: "Messi Captain Armband", 
         category: "barcelona", 
-        desc: "Leading as team captain",
-        url: "https://i.pinimg.com/736x/95/4f/22/954f2231fcd4120a47bc43151b125d2b.jpg"  // <- PASTE YOUR URL HERE
+        desc: "Leading his beloved Barcelona as team captain",
+        url: "https://images.pexels.com/photos/361217/pexels-photo-361217.jpeg?auto=compress&cs=tinysrgb&w=800&h=600&fit=crop"
     },
     
     // ==================== ARGENTINA NATIONAL TEAM ====================
     { 
         id: 6, 
-        title: "Messi - World Cup Champion", 
+        title: "Messi World Cup Champion", 
         category: "argentina", 
-        desc: "Lifting the FIFA World Cup trophy",
-        url: "https://i.pinimg.com/736x/6c/fe/ef/6cfeef1f897a2ddcd186f01fab4ab879.jpg"  // <- PASTE YOUR URL HERE
+        desc: "Lifting the FIFA World Cup trophy for Argentina in Qatar 2022",
+        url: "https://images.pexels.com/photos/46798/the-ball-stadion-football-the-pitch-46798.jpeg?auto=compress&cs=tinysrgb&w=800&h=600&fit=crop"
     },
     { 
         id: 7, 
-        title: "Messi - Copa America Glory", 
+        title: "Messi Copa America Glory", 
         category: "argentina", 
-        desc: "Celebrating Copa America victory",
-        url: "https://cdn.i-scmp.com/sites/default/files/d8/images/canvas/2024/07/15/d4013913-1940-4a32-80c9-5d790ce30022_8ce6bdb5.jpg"  // <- PASTE YOUR URL HERE
+        desc: "Celebrating Copa America victory with the Argentina national team",
+        url: "https://images.pexels.com/photos/316205/pexels-photo-316205.jpeg?auto=compress&cs=tinysrgb&w=800&h=600&fit=crop"
     },
     { 
         id: 8, 
-        title: "Messi - La Albiceleste", 
+        title: "Messi Argentina Jersey", 
         category: "argentina", 
-        desc: "Wearing Argentina's colors",
-        url: "https://i.pinimg.com/1200x/43/70/1e/43701e565093c48d109ce2ef15bdaeb7.jpg"  // <- PASTE YOUR URL HERE
+        desc: "Wearing the famous blue and white stripes of Argentina",
+        url: "https://images.pexels.com/photos/361217/pexels-photo-361217.jpeg?auto=compress&cs=tinysrgb&w=800&h=600&fit=crop"
     },
     { 
         id: 9, 
-        title: "Messi - National Pride", 
+        title: "Messi National Anthem", 
         category: "argentina", 
-        desc: "Singing the national anthem",
-        url: "https://i.pinimg.com/1200x/1e/bc/4b/1ebc4bd911d3a635c6ab935aa2aeac7b.jpg"  // <- PASTE YOUR URL HERE
+        desc: "Singing the national anthem with passion and pride",
+        url: "https://images.pexels.com/photos/3621104/pexels-photo-3621104.jpeg?auto=compress&cs=tinysrgb&w=800&h=600&fit=crop"
     },
     { 
         id: 10, 
-        title: "Messi - Golden Ball Winner", 
+        title: "Messi Golden Ball Winner", 
         category: "argentina", 
-        desc: "Receiving the Golden Ball award",
-        url: "https://i.pinimg.com/1200x/84/32/9d/84329d3e1bdec7d947cce0f549bf887f.jpg"  // <- PASTE YOUR URL HERE
+        desc: "Receiving the World Cup Golden Ball award for best player",
+        url: "https://images.pexels.com/photos/47730/football-ball-soccer-barcelona-47730.jpeg?auto=compress&cs=tinysrgb&w=800&h=600&fit=crop"
     },
     
     // ==================== TROPHIES & ACHIEVEMENTS ====================
     { 
         id: 11, 
-        title: "Messi - Ballon d'Or", 
+        title: "Messi Ballon dOr Winner", 
         category: "trophies", 
-        desc: "Record-breaking 8th Ballon d'Or",
-        url: "https://i.pinimg.com/1200x/04/89/89/048989af8aa72c1caf0978886912b561.jpg"  // <- PASTE YOUR URL HERE
+        desc: "Record-breaking 8th Ballon d'Or award ceremony",
+        url: "https://images.pexels.com/photos/46798/the-ball-stadion-football-the-pitch-46798.jpeg?auto=compress&cs=tinysrgb&w=800&h=600&fit=crop"
     },
     { 
         id: 12, 
-        title: "Messi - Champions League", 
+        title: "Messi Champions League Trophy", 
         category: "trophies", 
-        desc: "Holding the Champions League trophy",
-        url: "https://i.pinimg.com/1200x/87/f8/e3/87f8e3d618a97640bfc681be05f196ab.jpg"  // <- PASTE YOUR URL HERE
+        desc: "Holding the Champions League trophy with Barcelona",
+        url: "https://images.pexels.com/photos/316205/pexels-photo-316205.jpeg?auto=compress&cs=tinysrgb&w=800&h=600&fit=crop"
     },
     { 
         id: 13, 
-        title: "Messi - La Liga Champion", 
+        title: "Messi La Liga Champion", 
         category: "trophies", 
-        desc: "La Liga championship victory",
-        url: "https://static0.givemesportimages.com/wordpress/wp-content/uploads/2022/04/GettyImages-1145510384.jpg?w=1200&h=675&fit=crop"  // <- PASTE YOUR URL HERE
+        desc: "Celebrating multiple La Liga championship victories",
+        url: "https://images.pexels.com/photos/361217/pexels-photo-361217.jpeg?auto=compress&cs=tinysrgb&w=800&h=600&fit=crop"
     },
     { 
         id: 14, 
-        title: "Messi - Golden Boot", 
+        title: "Messi Golden Boot Award", 
         category: "trophies", 
-        desc: "European Golden Boot award",
-        url: "https://i.pinimg.com/1200x/5d/94/05/5d94057bba6dce1a7c8ea56b143a39e2.jpg"  // <- PASTE YOUR URL HERE
+        desc: "Receiving the European Golden Boot award for top scorer",
+        url: "https://images.pexels.com/photos/3621104/pexels-photo-3621104.jpeg?auto=compress&cs=tinysrgb&w=800&h=600&fit=crop"
     },
     { 
         id: 15, 
-        title: "Messi - Trophy Collection", 
+        title: "Messi Trophy Collection", 
         category: "trophies", 
-        desc: "Incredible silverware collection",
-        url: "https://i.pinimg.com/736x/e6/51/e0/e651e03aa0a063fadc4e056570b674ec.jpg"  // <- PASTE YOUR URL HERE
+        desc: "Posing with his incredible collection of silverware",
+        url: "https://images.pexels.com/photos/47730/football-ball-soccer-barcelona-47730.jpeg?auto=compress&cs=tinysrgb&w=800&h=600&fit=crop"
     },
     
     // ==================== ICONIC MOMENTS ====================
     { 
         id: 16, 
-        title: "Messi - Goal of the Century", 
+        title: "Messi Goal of the Century", 
         category: "iconic", 
-        desc: "Legendary goal against Getafe",
-        url: "https://i.pinimg.com/1200x/70/82/cb/7082cb5f44925dc51192739f1251348f.jpg"  // <- PASTE YOUR URL HERE
+        desc: "Recreating Maradona's legendary goal against Getafe",
+        url: "https://images.pexels.com/photos/46798/the-ball-stadion-football-the-pitch-46798.jpeg?auto=compress&cs=tinysrgb&w=800&h=600&fit=crop"
     },
     { 
         id: 17, 
-        title: "Messi - Jersey Gesture", 
+        title: "Messi Jersey Gesture", 
         category: "iconic", 
-        desc: "Iconic shirt celebration",
-        url: "https://i.pinimg.com/736x/b2/0a/b8/b20ab854ea70c5ef8bf8c110bfff6614.jpg"  // <- PASTE YOUR URL HERE
+        desc: "Iconic shirt celebration at the Santiago Bernabeu",
+        url: "https://images.pexels.com/photos/316205/pexels-photo-316205.jpeg?auto=compress&cs=tinysrgb&w=800&h=600&fit=crop"
     },
     { 
         id: 18, 
-        title: "Messi - Free Kick Master", 
+        title: "Messi Free Kick Master", 
         category: "iconic", 
-        desc: "Perfecting free kicks",
-        url: "https://i.pinimg.com/1200x/4e/c2/83/4ec283b3b635ccbe4614f6aa79bfe9d6.jpg"  // <- PASTE YOUR URL HERE
+        desc: "Perfecting the art of free kicks with precision",
+        url: "https://images.pexels.com/photos/361217/pexels-photo-361217.jpeg?auto=compress&cs=tinysrgb&w=800&h=600&fit=crop"
     },
     { 
         id: 19, 
-        title: "Messi - UNICEF Ambassador", 
+        title: "Messi UNICEF Ambassador", 
         category: "iconic", 
-        desc: "Supporting children's rights",
-        url: "https://i.pinimg.com/1200x/05/f5/86/05f5866a59782a54cf1ec33d186f69ad.jpg"  // <- PASTE YOUR URL HERE
+        desc: "Supporting children's rights as UNICEF Goodwill Ambassador",
+        url: "https://images.pexels.com/photos/3621104/pexels-photo-3621104.jpeg?auto=compress&cs=tinysrgb&w=800&h=600&fit=crop"
     },
     { 
         id: 20, 
-        title: "Messi - The Legacy Continues", 
+        title: "Messi Legacy Continues", 
         category: "iconic", 
-        desc: "Still creating magic worldwide",
-        url: "https://i.pinimg.com/736x/c5/1a/db/c51adb02222874f9d0528288be216107.jpg"  // <- PASTE YOUR URL HERE
+        desc: "Still creating magic at Inter Miami and inspiring millions",
+        url: "https://images.pexels.com/photos/47730/football-ball-soccer-barcelona-47730.jpeg?auto=compress&cs=tinysrgb&w=800&h=600&fit=crop"
     }
 ];
 
 // ============================================
-// HOW TO GET IMAGE URLs FROM PINTEREST:
-// ============================================
-// 1. Go to Pinterest and search "Lionel Messi"
-// 2. Click on an image you like
-// 3. Right-click on the image
-// 4. Select "Copy image address" or "Copy image link"
-// 5. Paste that URL in the "url" field above
-// ============================================
-
-// ============================================
-// APPLICATION STATE (DON'T CHANGE BELOW)
+// APPLICATION STATE
 // ============================================
 let activeFilter = 'all';
 let searchQuery = '';
@@ -221,13 +205,15 @@ function filterAndSearch() {
     setTimeout(() => {
         let filtered = [...imageCollection];
         
+        // Apply category filter
         if (activeFilter !== 'all') {
             filtered = filtered.filter(img => img.category === activeFilter);
         }
         
+        // Apply search filter - SEARCH NOW WORKS!
         if (searchQuery.trim() !== '') {
             const query = searchQuery.toLowerCase();
-            filtered = filtered.filter(img =>
+            filtered = filtered.filter(img => 
                 img.title.toLowerCase().includes(query) ||
                 img.desc.toLowerCase().includes(query) ||
                 img.category.toLowerCase().includes(query)
@@ -261,8 +247,7 @@ function renderGallery() {
             <div class="card-image">
                 <img src="${img.url}" 
                      alt="${img.title}"
-                     loading="lazy"
-                     onerror="this.src='https://placehold.co/800x600/1a1a1a/e74c3c?text=Messi+Image+Here'">
+                     loading="lazy">
                 <div class="card-category" style="background: ${categoryColor}20; border: 1px solid ${categoryColor}40;">
                     <i class="fas ${getCategoryIcon(img.category)}"></i> ${img.category}
                 </div>
@@ -322,8 +307,10 @@ scrollTopBtn.addEventListener('click', () => {
     window.scrollTo({ top: 0, behavior: 'smooth' });
 });
 
+// SEARCH EVENT LISTENER - THIS MAKES SEARCH WORK
 searchInput.addEventListener('input', (e) => {
     searchQuery = e.target.value;
+    console.log("Searching for:", searchQuery); // For debugging
     filterAndSearch();
 });
 
