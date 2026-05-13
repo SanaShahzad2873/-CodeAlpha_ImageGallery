@@ -1,7 +1,12 @@
 // ============================================
 // LIONEL MESSI GALLERY
-// YOUR ORIGINAL IMAGES - SEARCH FIXED ONLY
+// EASY TO EDIT - JUST REPLACE THE URLS BELOW
 // ============================================
+
+// HOW TO ADD YOUR IMAGES:
+// 1. Upload your images to a hosting service (Imgur, Google Drive, Pinterest, etc.)
+// 2. Copy the image direct URL
+// 3. Paste it in the "url" field below
 
 const imageCollection = [
     // ==================== BARCELONA ERA ====================
@@ -154,7 +159,17 @@ const imageCollection = [
 ];
 
 // ============================================
-// APPLICATION STATE
+// HOW TO GET IMAGE URLs FROM PINTEREST:
+// ============================================
+// 1. Go to Pinterest and search "Lionel Messi"
+// 2. Click on an image you like
+// 3. Right-click on the image
+// 4. Select "Copy image address" or "Copy image link"
+// 5. Paste that URL in the "url" field above
+// ============================================
+
+// ============================================
+// APPLICATION STATE (DON'T CHANGE BELOW)
 // ============================================
 let activeFilter = 'all';
 let searchQuery = '';
@@ -206,15 +221,13 @@ function filterAndSearch() {
     setTimeout(() => {
         let filtered = [...imageCollection];
         
-        // Apply category filter
         if (activeFilter !== 'all') {
             filtered = filtered.filter(img => img.category === activeFilter);
         }
         
-        // Apply search filter - FIXED SEARCH
         if (searchQuery.trim() !== '') {
             const query = searchQuery.toLowerCase();
-            filtered = filtered.filter(img => 
+            filtered = filtered.filter(img =>
                 img.title.toLowerCase().includes(query) ||
                 img.desc.toLowerCase().includes(query) ||
                 img.category.toLowerCase().includes(query)
@@ -249,7 +262,7 @@ function renderGallery() {
                 <img src="${img.url}" 
                      alt="${img.title}"
                      loading="lazy"
-                     onerror="this.src='https://placehold.co/800x600/1a1a1a/e74c3c?text=Messi+Image'">
+                     onerror="this.src='https://placehold.co/800x600/1a1a1a/e74c3c?text=Messi+Image+Here'">
                 <div class="card-category" style="background: ${categoryColor}20; border: 1px solid ${categoryColor}40;">
                     <i class="fas ${getCategoryIcon(img.category)}"></i> ${img.category}
                 </div>
@@ -309,13 +322,12 @@ scrollTopBtn.addEventListener('click', () => {
     window.scrollTo({ top: 0, behavior: 'smooth' });
 });
 
-// ============================================
-// SEARCH EVENT LISTENER - THIS IS THE FIX
-// ============================================
+// ========== SEARCH FIX - ONLY THIS PART CHANGED ==========
 searchInput.addEventListener('input', (e) => {
     searchQuery = e.target.value;
-    filterAndSearch();  // This triggers search
+    filterAndSearch();
 });
+// =========================================================
 
 filterChips.forEach(chip => {
     chip.addEventListener('click', () => {
