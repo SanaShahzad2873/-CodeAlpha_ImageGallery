@@ -15,35 +15,35 @@ const imageCollection = [
         title: "Messi - Barcelona Legend", 
         category: "barcelona", 
         desc: "The GOAT in his prime at Camp Nou",
-        url: "https://i.pinimg.com/1200x/16/51/71/165171ba2d884dcc2875606882eb0adf.jpg"
+        url: "https://i.pinimg.com/1200x/16/51/71/165171ba2d884dcc2875606882eb0adf.jpg"  // <- PASTE YOUR URL HERE
     },
     { 
         id: 2, 
         title: "Messi - The Magician", 
         category: "barcelona", 
         desc: "Dribbling past defenders with grace",
-        url: "https://i.pinimg.com/1200x/ef/cd/5f/efcd5fbfaa8e8bae431dd2ce826d3b54.jpg"
+        url: "https://i.pinimg.com/1200x/ef/cd/5f/efcd5fbfaa8e8bae431dd2ce826d3b54.jpg"  // <- PASTE YOUR URL HERE
     },
     { 
         id: 3, 
         title: "Messi - Number 10 Legacy", 
         category: "barcelona", 
         desc: "The legendary number 10 jersey",
-        url: "https://i.pinimg.com/1200x/ff/38/cd/ff38cdefd90650301425d9bd29369815.jpg"
+        url: "https://i.pinimg.com/1200x/ff/38/cd/ff38cdefd90650301425d9bd29369815.jpg"  // <- PASTE YOUR URL HERE
     },
     { 
         id: 4, 
         title: "Messi - Celebration", 
         category: "barcelona", 
         desc: "Iconic goal celebration",
-        url: "https://i.pinimg.com/736x/41/19/92/411992e5770a9e2ad26cbe8f2db423dc.jpg"
+        url: "https://i.pinimg.com/736x/41/19/92/411992e5770a9e2ad26cbe8f2db423dc.jpg"  // <- PASTE YOUR URL HERE
     },
     { 
         id: 5, 
         title: "Messi - Captain's Armband", 
         category: "barcelona", 
         desc: "Leading as team captain",
-        url: "https://i.pinimg.com/736x/95/4f/22/954f2231fcd4120a47bc43151b125d2b.jpg"
+        url: "https://i.pinimg.com/736x/95/4f/22/954f2231fcd4120a47bc43151b125d2b.jpg"  // <- PASTE YOUR URL HERE
     },
     
     // ==================== ARGENTINA NATIONAL TEAM ====================
@@ -52,35 +52,35 @@ const imageCollection = [
         title: "Messi - World Cup Champion", 
         category: "argentina", 
         desc: "Lifting the FIFA World Cup trophy",
-        url: "https://i.pinimg.com/736x/6c/fe/ef/6cfeef1f897a2ddcd186f01fab4ab879.jpg"
+        url: "https://i.pinimg.com/736x/6c/fe/ef/6cfeef1f897a2ddcd186f01fab4ab879.jpg"  // <- PASTE YOUR URL HERE
     },
     { 
         id: 7, 
         title: "Messi - Copa America Glory", 
         category: "argentina", 
         desc: "Celebrating Copa America victory",
-        url: "https://cdn.i-scmp.com/sites/default/files/d8/images/canvas/2024/07/15/d4013913-1940-4a32-80c9-5d790ce30022_8ce6bdb5.jpg"
+        url: "https://cdn.i-scmp.com/sites/default/files/d8/images/canvas/2024/07/15/d4013913-1940-4a32-80c9-5d790ce30022_8ce6bdb5.jpg"  // <- PASTE YOUR URL HERE
     },
     { 
         id: 8, 
         title: "Messi - La Albiceleste", 
         category: "argentina", 
         desc: "Wearing Argentina's colors",
-        url: "https://i.pinimg.com/1200x/43/70/1e/43701e565093c48d109ce2ef15bdaeb7.jpg"
+        url: "https://i.pinimg.com/1200x/43/70/1e/43701e565093c48d109ce2ef15bdaeb7.jpg"  // <- PASTE YOUR URL HERE
     },
     { 
         id: 9, 
         title: "Messi - National Pride", 
         category: "argentina", 
         desc: "Singing the national anthem",
-        url: "https://i.pinimg.com/1200x/1e/bc/4b/1ebc4bd911d3a635c6ab935aa2aeac7b.jpg"
+        url: "https://i.pinimg.com/1200x/1e/bc/4b/1ebc4bd911d3a635c6ab935aa2aeac7b.jpg"  // <- PASTE YOUR URL HERE
     },
     { 
         id: 10, 
         title: "Messi - Golden Ball Winner", 
         category: "argentina", 
         desc: "Receiving the Golden Ball award",
-        url: "https://i.pinimg.com/1200x/84/32/9d/84329d3e1bdec7d947cce0f549bf887f.jpg"
+        url: "https://i.pinimg.com/1200x/84/32/9d/84329d3e1bdec7d947cce0f549bf887f.jpg"  // <- PASTE YOUR URL HERE
     },
     
     // ==================== TROPHIES & ACHIEVEMENTS ====================
@@ -89,35 +89,35 @@ const imageCollection = [
         title: "Messi - Ballon d'Or", 
         category: "trophies", 
         desc: "Record-breaking 8th Ballon d'Or",
-        url: "https://i.pinimg.com/1200x/04/89/89/048989af8aa72c1caf0978886912b561.jpg"
+        url: "https://i.pinimg.com/1200x/04/89/89/048989af8aa72c1caf0978886912b561.jpg"  // <- PASTE YOUR URL HERE
     },
     { 
         id: 12, 
         title: "Messi - Champions League", 
         category: "trophies", 
         desc: "Holding the Champions League trophy",
-        url: "https://i.pinimg.com/1200x/87/f8/e3/87f8e3d618a97640bfc681be05f196ab.jpg"
+        url: "https://i.pinimg.com/1200x/87/f8/e3/87f8e3d618a97640bfc681be05f196ab.jpg"  // <- PASTE YOUR URL HERE
     },
     { 
         id: 13, 
         title: "Messi - La Liga Champion", 
         category: "trophies", 
         desc: "La Liga championship victory",
-        url: "https://static0.givemesportimages.com/wordpress/wp-content/uploads/2022/04/GettyImages-1145510384.jpg?w=1200&h=675&fit=crop"
+        url: "https://static0.givemesportimages.com/wordpress/wp-content/uploads/2022/04/GettyImages-1145510384.jpg?w=1200&h=675&fit=crop"  // <- PASTE YOUR URL HERE
     },
     { 
         id: 14, 
         title: "Messi - Golden Boot", 
         category: "trophies", 
         desc: "European Golden Boot award",
-        url: "https://i.pinimg.com/1200x/5d/94/05/5d94057bba6dce1a7c8ea56b143a39e2.jpg"
+        url: "https://i.pinimg.com/1200x/5d/94/05/5d94057bba6dce1a7c8ea56b143a39e2.jpg"  // <- PASTE YOUR URL HERE
     },
     { 
         id: 15, 
         title: "Messi - Trophy Collection", 
         category: "trophies", 
         desc: "Incredible silverware collection",
-        url: "https://i.pinimg.com/736x/e6/51/e0/e651e03aa0a063fadc4e056570b674ec.jpg"
+        url: "https://i.pinimg.com/736x/e6/51/e0/e651e03aa0a063fadc4e056570b674ec.jpg"  // <- PASTE YOUR URL HERE
     },
     
     // ==================== ICONIC MOMENTS ====================
@@ -126,35 +126,35 @@ const imageCollection = [
         title: "Messi - Goal of the Century", 
         category: "iconic", 
         desc: "Legendary goal against Getafe",
-        url: "https://i.pinimg.com/1200x/70/82/cb/7082cb5f44925dc51192739f1251348f.jpg"
+        url: "https://i.pinimg.com/1200x/70/82/cb/7082cb5f44925dc51192739f1251348f.jpg"  // <- PASTE YOUR URL HERE
     },
     { 
         id: 17, 
         title: "Messi - Jersey Gesture", 
         category: "iconic", 
         desc: "Iconic shirt celebration",
-        url: "https://i.pinimg.com/736x/b2/0a/b8/b20ab854ea70c5ef8bf8c110bfff6614.jpg"
+        url: "https://i.pinimg.com/736x/b2/0a/b8/b20ab854ea70c5ef8bf8c110bfff6614.jpg"  // <- PASTE YOUR URL HERE
     },
     { 
         id: 18, 
         title: "Messi - Free Kick Master", 
         category: "iconic", 
         desc: "Perfecting free kicks",
-        url: "https://i.pinimg.com/1200x/4e/c2/83/4ec283b3b635ccbe4614f6aa79bfe9d6.jpg"
+        url: "https://i.pinimg.com/1200x/4e/c2/83/4ec283b3b635ccbe4614f6aa79bfe9d6.jpg"  // <- PASTE YOUR URL HERE
     },
     { 
         id: 19, 
         title: "Messi - UNICEF Ambassador", 
         category: "iconic", 
         desc: "Supporting children's rights",
-        url: "https://i.pinimg.com/1200x/05/f5/86/05f5866a59782a54cf1ec33d186f69ad.jpg"
+        url: "https://i.pinimg.com/1200x/05/f5/86/05f5866a59782a54cf1ec33d186f69ad.jpg"  // <- PASTE YOUR URL HERE
     },
     { 
         id: 20, 
         title: "Messi - The Legacy Continues", 
         category: "iconic", 
         desc: "Still creating magic worldwide",
-        url: "https://i.pinimg.com/736x/c5/1a/db/c51adb02222874f9d0528288be216107.jpg"
+        url: "https://i.pinimg.com/736x/c5/1a/db/c51adb02222874f9d0528288be216107.jpg"  // <- PASTE YOUR URL HERE
     }
 ];
 
@@ -322,12 +322,10 @@ scrollTopBtn.addEventListener('click', () => {
     window.scrollTo({ top: 0, behavior: 'smooth' });
 });
 
-// ========== SEARCH FIX - ONLY THIS PART CHANGED ==========
 searchInput.addEventListener('input', (e) => {
     searchQuery = e.target.value;
     filterAndSearch();
 });
-// =========================================================
 
 filterChips.forEach(chip => {
     chip.addEventListener('click', () => {
